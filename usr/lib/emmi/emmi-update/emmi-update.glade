@@ -358,7 +358,7 @@
     <property name="modal">True</property>
     <property name="window_position">center-always</property>
     <property name="destroy_with_parent">True</property>
-    <property name="icon">/usr/lib/tuquito/tuquito-update/logo.png</property>
+    <property name="icon">/usr/lib/emmi/emmi-update/logo.png</property>
     <child>
       <object class="GtkVBox" id="vbox1">
         <property name="width_request">640</property>
@@ -925,7 +925,7 @@
                     <child>
                       <object class="GtkImage" id="image1">
                         <property name="visible">True</property>
-                        <property name="pixbuf">/usr/lib/tuquito/tuquito-update/icons/software-properties.png</property>
+                        <property name="pixbuf">/usr/lib/emmi/emmi-update/icons/software-properties.png</property>
                       </object>
                       <packing>
                         <property name="position">0</property>
@@ -1010,12 +1010,12 @@
   <object class="GtkAboutDialog" id="about">
     <property name="border_width">5</property>
     <property name="window_position">center</property>
-    <property name="icon">/usr/lib/tuquito/tuquito-update/logo.png</property>
+    <property name="icon">/usr/lib/emmi/emmi-update/logo.png</property>
     <property name="type_hint">normal</property>
     <property name="program_name">Tuquito Update</property>
     <property name="version">1.1</property>
     <property name="copyright" translatable="yes">Copyright © 2010 - Tuquito Team!</property>
-    <property name="website">http://www.tuquito.org.ar</property>
+    <property name="website">http://www.emmi.org.ar</property>
     <property name="website_label" translatable="yes">Tuquito Team!</property>
     <property name="license" translatable="yes">		    GNU GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
@@ -1357,10 +1357,10 @@ consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
 </property>
-    <property name="authors">Mario Colque &lt;mario@tuquito.org.ar&gt;</property>
-    <property name="translator_credits" translatable="yes">Mario Colque &lt;mario@tuquito.org.ar&gt;
-Carlos Felipe P. de Araújo &lt;carlosfelipe@tuquito.org.ar&gt;</property>
-    <property name="logo">/usr/lib/tuquito/tuquito-update/logo.png</property>
+    <property name="authors">Mario Colque &lt;mario@emmi.org.ar&gt;</property>
+    <property name="translator_credits" translatable="yes">Mario Colque &lt;mario@emmi.org.ar&gt;
+Carlos Felipe P. de Araújo &lt;carlosfelipe@emmi.org.ar&gt;</property>
+    <property name="logo">/usr/lib/emmi/emmi-update/logo.png</property>
     <child internal-child="vbox">
       <object class="GtkVBox" id="dialog-vbox1">
         <property name="visible">True</property>

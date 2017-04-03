@@ -2,10 +2,10 @@
 # -*- coding: UTF-8 -*-
 
 """
- Tuquito Update Manager
+ Emmi Update Manager
  Copyright (C) 2010
- Author: Mario Colque <mario@tuquito.org.ar>
- Tuquito Team! - www.tuquito.org.ar
+ Author: Mario Colque <mario@emmi.org.ar>
+ Emmi Team! - www.emmi.org.ar
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -36,13 +36,13 @@ if not pynotify.init ('Update-Manager'):
     sys.exit(1)
 
 #globals
-APP_PATH = '/usr/lib/tuquito/tuquito-update/'
-logdir = '/tmp/tuquito-update/'
+APP_PATH = '/usr/lib/emmi/emmi-update/'
+logdir = '/tmp/emmi-update/'
 uid = os.getuid()
 notifyStatus = True
 
 # i18n
-gettext.install('tuquito-update', '/usr/share/tuquito/locale')
+gettext.install('emmi-update', '/usr/share/emmi/locale')
 
 architecture = commands.getoutput('uname -a')
 if architecture.find('x86_64') >= 0:
@@ -264,13 +264,13 @@ class AutomaticRefreshThread(threading.Thread):
                 time.sleep(int(timer))
                 if showWindow:
                     try:
-                        log.writelines('++ The Tuquito Update window is open, skipping auto-refresh\n')
+                        log.writelines('++ The Emmi Update window is open, skipping auto-refresh\n')
                         log.flush()
                     except:
                         pass
                 else:
                     try:
-                        log.writelines('++ Tuquito Update is in tray mode, performing auto-refresh\n')
+                        log.writelines('++ Emmi Update is in tray mode, performing auto-refresh\n')
                         log.flush()
                     except:
                         pass
@@ -341,19 +341,19 @@ class InstallThread(threading.Thread):
                 f.close()
                 log.writelines('++ Install finished\n')
                 log.flush()
-                if 'tuquito-update' in packages:
+                if 'emmi-update' in packages:
                     # Restart
                     gtk.gdk.threads_enter()
                     showWindow = False
                     self.glade.get_object('window').hide()
                     gtk.gdk.threads_leave()
                     try:
-                        log.writelines("++ Tuquito Update was updated, restarting it in root mode...\n")
+                        log.writelines("++ Emmi Update was updated, restarting it in root mode...\n")
                         log.flush()
                         log.close()
                     except:
                         pass #cause we might have closed it already
-                    os.system('gksudo /usr/lib/tuquito/tuquito-update/update-manager.py show &')
+                    os.system('gksudo /usr/lib/emmi/emmi-update/update-manager.py show &')
                 else:
                     # Refresh
                     gtk.gdk.threads_enter()
@@ -445,12 +445,12 @@ def onActivate(widget):
         else:
             if uid != 0:
                 try:
-                    log.writelines('++ Launching Tuquito Update in root mode, waiting for it to kill us...\n')
+                    log.writelines('++ Launching Emmi Update in root mode, waiting for it to kill us...\n')
                     log.flush()
                     log.close()
                 except:
                     pass
-                os.system('gksu tuquito-update -D /usr/share/applications/tuquito-update.desktop &')
+                os.system('gksu emmi-update -D /usr/share/applications/emmi-update.desktop &')
             else:
                 showWindow = True
                 window.show()
@@ -488,7 +488,7 @@ def about(widget):
     abt.connect('response', quitAbout)
     abt.connect('delete-event', quitAbout)
     abt.connect('destroy-event', quitAbout)
-    abt.set_comments(_('Update Manager for Tuquito'))
+    abt.set_comments(_('Update Manager for Emmi'))
     abt.show()
 
 def quitAbout(widget, data=None):
@@ -507,7 +507,7 @@ def quit(widget):
 
 def openPref(widget):
     windowPref = glade.get_object('windowPref')
-    windowPref.set_title(_('Tuquito Update preferences'))
+    windowPref.set_title(_('Emmi Update preferences'))
     glade.get_object('label1').set_label(_('Refresh the list of updates every:'))
     glade.get_object('label2').set_label(_('Auto Refresh'))
     glade.get_object('label3').set_label(_('minutes'))
@@ -518,7 +518,7 @@ def openPref(widget):
     glade.get_object('label8').set_label(_('General'))
     glade.get_object('label9').set_label(_('Proxy'))
     glade.get_object('label10').set_label(_('days'))
-    glade.get_object('label11').set_markup(_('<i>Note: The list only gets refreshed while the Tuquito Update window is closed (system tray mode).</i>'))
+    glade.get_object('label11').set_markup(_('<i>Note: The list only gets refreshed while the Emmi Update window is closed (system tray mode).</i>'))
     glade.get_object('check_dist_upgrade').set_label(_('Include dist-upgrade packages?'))
     glade.get_object('check_auto_start').set_label(_('Auto start'))
     glade.get_object('check_show_icon').set_label(_('Show icon only when updates are available'))
@@ -578,15 +578,15 @@ def readPref(widget=None):
         home = '/home/' + os.environ.get('SUDO_USER')
     else:
         from user import home
-    configDir = os.path.join(home, '.tuquito/tuquito-update')
-    configFile =  os.path.join(configDir, 'tuquito-update.conf')
+    configDir = os.path.join(home, '.emmi/emmi-update')
+    configFile =  os.path.join(configDir, 'emmi-update.conf')
     if os.path.exists(configDir):
         if os.path.exists(configFile):
             config.read(configFile)
         else:
-            config.read('/etc/tuquito/tuquito-update.conf')
+            config.read('/etc/emmi/emmi-update.conf')
     else:
-        config.read('/etc/tuquito/tuquito-update.conf')
+        config.read('/etc/emmi/emmi-update.conf')
         os.system('mkdir -p ' + configDir)
     try:
         delay = config.getfloat('User settings', 'delay')
@@ -731,7 +731,7 @@ else:
     if not autoStart:
         sys.exit(0)
     mode = 'user'
-    while not os.path.exists('/tmp/tuquito-update.tmp'):
+    while not os.path.exists('/tmp/emmi-update.tmp'):
         time.sleep(10)
 
 # Flags
@@ -745,9 +745,9 @@ if not os.path.exists(logdir):
 
 log = tempfile.NamedTemporaryFile(prefix=logdir, delete=False)
 logFile = log.name
-log.writelines('++ Launching Tuquito Update whith uid: ' + str(uid) + '\n')
+log.writelines('++ Launching Emmi Update whith uid: ' + str(uid) + '\n')
 log.flush()
-log.writelines('++ Launching Tuquito Update in ' + mode + ' mode\n')
+log.writelines('++ Launching Emmi Update in ' + mode + ' mode\n')
 log.flush()
 
 try:
@@ -759,7 +759,7 @@ try:
     newUpdates = os.path.join(APP_PATH, 'icons/newUpdates.png')
 
     glade = gtk.Builder()
-    glade.add_from_file('/usr/lib/tuquito/tuquito-update/tuquito-update.glade')
+    glade.add_from_file('/usr/lib/emmi/emmi-update/emmi-update.glade')
     window = glade.get_object('window')
     window.set_title(_('Update Manager'))
     dataLabel = glade.get_object('data')

@@ -1,4 +1,4 @@
-*base-files|*|5||Overwrites the Tuquito LSB info
+*base-files|*|5||Overwrites the Emmi LSB info
 *linux-|*|5||May damage your system. In particular, if you have used envy to install nVidia or ATI proprietary drivers, do not install unless you understand how those drivers work.
 *linux-image-3.2|*|4||
 *linux-headers-3.2|*|4||
@@ -9,9 +9,9 @@ hal|*|5||
 *libhal|*|5||
 *dbus|*|4||Crucial to Linux components working with one another. Do not install unless you are experiencing a problem which you believe the upgrade will solve
 *libdbus|*|4||Crucial to Linux components working with one another. Do not install unless you are experiencing a problem which you believe the upgrade will solve
-*tuquito|*|3||
-tuquito-update|*|4||
-tuquito-system|*|5||
+*emmi|*|3||
+emmi-update|*|4||
+emmi-system|*|5||
 *mate|*|2||
 *firefox|*|2||
 *xulrunner|*|2||

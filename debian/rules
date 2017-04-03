@@ -45,11 +45,11 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 
-	# Add here commands to install the package into debian/tuquito-update.
-	#$(MAKE) install DESTDIR=$(CURDIR)/debian/tuquito-update
-	mkdir -p $(CURDIR)/debian/tuquito-update
-	cp -r $(CURDIR)/usr $(CURDIR)/debian/tuquito-update/
-	cp -r $(CURDIR)/etc $(CURDIR)/debian/tuquito-update/
+	# Add here commands to install the package into debian/emmi-update.
+	#$(MAKE) install DESTDIR=$(CURDIR)/debian/emmi-update
+	mkdir -p $(CURDIR)/debian/emmi-update
+	cp -r $(CURDIR)/usr $(CURDIR)/debian/emmi-update/
+	cp -r $(CURDIR)/etc $(CURDIR)/debian/emmi-update/
 
 # Build architecture-independent files here.
 binary-indep: build install

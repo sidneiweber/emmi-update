@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
 """
- Tuquito Update Manager
+ Emmi Update Manager
  Copyright (C) 2010
- Author: Mario Colque <mario@tuquito.org.ar>
- Tuquito Team! - www.tuquito.org.ar
+ Author: Mario Colque <mario@emmi.org.ar>
+ Emmi Team! - www.emmi.org.ar
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -32,7 +32,7 @@ if commands.getoutput('mount | grep "aufs"') == '':
 			while os.getenv('SUDO_USER') == '':
 				time.sleep(10)
 			home = os.path.join('/home', os.getenv('SUDO_USER'))
-			configFile =  os.path.join(home, '.tuquito/tuquito-update/tuquito-update.conf')
+			configFile =  os.path.join(home, '.emmi/emmi-update/emmi-update.conf')
 			if os.path.exists(configFile):
 				config.read(configFile)
 				delay = config.getint('User settings', 'delay')
@@ -51,8 +51,8 @@ if commands.getoutput('mount | grep "aufs"') == '':
 			cache = apt.Cache()
 			cache.update()
 			cache.upgrade(distUpgrade)
-		os.system('touch /tmp/tuquito-update.tmp')
+		os.system('touch /tmp/emmi-update.tmp')
 		sys.exit(0)
 	except Exception, detail:
-		os.system('touch /tmp/tuquito-update.tmp')
+		os.system('touch /tmp/emmi-update.tmp')
 		sys.exit(1)

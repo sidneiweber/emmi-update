@@ -1,13 +1,13 @@
-Source: tuquito-update
+Source: emmi-update
 Section: admin
 Priority: optional
-Maintainer: Mario Colque <mario@tuquito.org.ar>
+Maintainer: Mario Colque <mario@emmi.org.ar>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: tuquito-update
+Package: emmi-update
 Architecture: all
 Depends: python (>= 2.4), python (<< 3), python-gtk2, synaptic, python-apt, zenity, python-notify
 Description: Update Manager
  Helps installing security updates and new versions of packages.
- * Tuquito Team! - 2010
+ * Emmi Team! - 2010

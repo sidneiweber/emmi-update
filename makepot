@@ -1,7 +1,7 @@
 #!/bin/bash
-xgettext --language=Python --keyword=_ --output=po/tuquito-update.pot usr/lib/tuquito/tuquito-update/update-manager.py --from-code=utf-8
-xgettext --language=Shell --output=po/tuquito-update.pot usr/bin/tuquito-update --from-code=utf-8 -j
+xgettext --language=Python --keyword=_ --output=po/emmi-update.pot usr/lib/emmi/emmi-update/update-manager.py --from-code=utf-8
+xgettext --language=Shell --output=po/emmi-update.pot usr/bin/emmi-update --from-code=utf-8 -j
 cd po
-msgmerge es.po tuquito-update.pot -o es.po
-msgmerge pt_BR.po tuquito-update.pot -o pt_BR.po
+msgmerge es.po emmi-update.pot -o es.po
+msgmerge pt_BR.po emmi-update.pot -o pt_BR.po
 
