@@ -3,12 +3,12 @@ set -e
 
 case "$1" in
 	configure)
-		update-rc.d tuquitoUpdate start 51 S .
+		update-rc.d emmiUpdate start 51 S .
 	;;
 	abort-upgrade|abort-remove|abort-deconfigure)
 	;;
 	triggered)
-		/usr/lib/tuquito/tuquito-update/update-manager.py
+		/usr/lib/emmi/emmi-update/update-manager.py
 	;;
 	*)
 		echo "postinst called with unknown argument '$1'" >&2

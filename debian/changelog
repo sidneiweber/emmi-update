@@ -1,131 +1,131 @@
-tuquito-update (1.1-23) precise; urgency=low
+emmi-update (1.1-23) precise; urgency=low
 
   * Use casper/live to detect live sesison
 
- -- Mario Colque <mario@tuquito.org.ar>  Sat, 16 Jun 2012 13:05:03 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sat, 16 Jun 2012 13:05:03 -0300
 
-tuquito-update (1.1-22) precise; urgency=low
+emmi-update (1.1-22) precise; urgency=low
 
   * Guaraní branch
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 22 May 2012 14:14:04 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 22 May 2012 14:14:04 -0300
 
-tuquito-update (1.1-21) natty; urgency=low
+emmi-update (1.1-21) natty; urgency=low
 
   * Pampa branch
 
- -- Mario Colque <mario@tuquito.org.ar>  Fri, 22 Jul 2011 13:33:27 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Fri, 22 Jul 2011 13:33:27 -0300
 
-tuquito-update (1.1-20) maverick; urgency=low
+emmi-update (1.1-20) maverick; urgency=low
 
   * synaptic integration fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Sat, 01 Jan 2011 20:25:54 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sat, 01 Jan 2011 20:25:54 -0300
 
-tuquito-update (1.1-19) maverick; urgency=low
+emmi-update (1.1-19) maverick; urgency=low
 
   * fixed preferences
   * fixed showIcon var
   * fixed showWindow when update process is run
 
- -- Mario Colque <mario@tuquito.org.ar>  Thu, 30 Dec 2010 19:42:44 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Thu, 30 Dec 2010 19:42:44 -0300
 
-tuquito-update (1.1-18) maverick; urgency=low
+emmi-update (1.1-18) maverick; urgency=low
 
   * notification fixed in root mode
 
- -- Mario Colque <mario@tuquito.org.ar>  Sun, 31 Oct 2010 20:47:59 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sun, 31 Oct 2010 20:47:59 -0300
 
-tuquito-update (1.1-17) maverick; urgency=low
+emmi-update (1.1-17) maverick; urgency=low
 
   * Notifications added
   * new preferences
 
- -- Mario Colque <mario@tuquito.org.ar>  Thu, 28 Oct 2010 22:09:47 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Thu, 28 Oct 2010 22:09:47 -0300
 
-tuquito-update (1.1-16) maverick; urgency=low
+emmi-update (1.1-16) maverick; urgency=low
 
   * translations fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 27 Oct 2010 16:34:26 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 27 Oct 2010 16:34:26 -0300
 
-tuquito-update (1.1-15) maverick; urgency=low
+emmi-update (1.1-15) maverick; urgency=low
 
   * new translations
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 27 Oct 2010 14:27:54 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 27 Oct 2010 14:27:54 -0300
 
-tuquito-update (1.1-14) maverick; urgency=low
+emmi-update (1.1-14) maverick; urgency=low
 
   * faster closing
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 26 Oct 2010 15:02:36 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 26 Oct 2010 15:02:36 -0300
 
-tuquito-update (1.1-13) maverick; urgency=low
+emmi-update (1.1-13) maverick; urgency=low
 
   * fixed bug when get package data
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 26 Oct 2010 12:19:10 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 26 Oct 2010 12:19:10 -0300
 
-tuquito-update (1.1-12) maverick; urgency=low
+emmi-update (1.1-12) maverick; urgency=low
 
   * translations fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Fri, 15 Oct 2010 12:05:55 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Fri, 15 Oct 2010 12:05:55 -0300
 
-tuquito-update (1.1-11) maverick; urgency=low
+emmi-update (1.1-11) maverick; urgency=low
 
   * deprecated functions changed
   * new autorun
   * new translations
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 13 Oct 2010 20:30:08 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 13 Oct 2010 20:30:08 -0300
 
-tuquito-update (1.1-10) maverick; urgency=low
+emmi-update (1.1-10) maverick; urgency=low
 
   * new translations
   * new launch method
   * init optimized
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 13 Oct 2010 14:50:28 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 13 Oct 2010 14:50:28 -0300
 
-tuquito-update (1.1-9) maverick; urgency=low
+emmi-update (1.1-9) maverick; urgency=low
 
   * new templates
   * kill fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 11 Oct 2010 22:53:31 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 11 Oct 2010 22:53:31 -0300
 
-tuquito-update (1.1-8) maverick; urgency=low
+emmi-update (1.1-8) maverick; urgency=low
 
   * autokill fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Thu, 07 Oct 2010 21:29:56 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Thu, 07 Oct 2010 21:29:56 -0300
 
-tuquito-update (1.1-7) maverick; urgency=low
+emmi-update (1.1-7) maverick; urgency=low
 
   * Don't run in live mode
   * Don't inanition in autostart
   * process renamed
   * new config file with showicon value
 
- -- Mario Colque <mario@tuquito.org.ar>  Sat, 25 Sep 2010 12:19:31 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sat, 25 Sep 2010 12:19:31 -0300
 
-tuquito-update (1.1-6) maverick; urgency=low
+emmi-update (1.1-6) maverick; urgency=low
 
   * script renamed
   * method deprecated deleted
   * new translatios
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 21 Sep 2010 17:23:34 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 21 Sep 2010 17:23:34 -0300
 
-tuquito-update (1.1-5) maverick; urgency=low
+emmi-update (1.1-5) maverick; urgency=low
 
   * zenity added
 
- -- Mario Colque <mario@tuquito.org.ar>  Sat, 18 Sep 2010 02:03:44 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sat, 18 Sep 2010 02:03:44 -0300
 
-tuquito-update (1.1-4) maverick; urgency=low
+emmi-update (1.1-4) maverick; urgency=low
 
   * new rules file
   * new interface
@@ -133,16 +133,16 @@ tuquito-update (1.1-4) maverick; urgency=low
   * levels sistem fixed
   * show main windows only when there are updates
 
- -- Mario Colque <mario@tuquito.org.ar>  Fri, 17 Sep 2010 20:58:13 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Fri, 17 Sep 2010 20:58:13 -0300
 
-tuquito-update (1.1-3) maverick; urgency=low
+emmi-update (1.1-3) maverick; urgency=low
 
   * rebranded to maverick
   * new version for all
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 15 Sep 2010 20:58:09 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 15 Sep 2010 20:58:09 -0300
 
-tuquito-update (1.1-1) lucid; urgency=low
+emmi-update (1.1-1) lucid; urgency=low
 
   * new version
   * glade warning fixed
@@ -150,53 +150,53 @@ tuquito-update (1.1-1) lucid; urgency=low
   * new translations and messages
   * uid golbal var fixed
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 14 Sep 2010 12:28:47 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 14 Sep 2010 12:28:47 -0300
 
-tuquito-update (1.0-16) lucid; urgency=low
+emmi-update (1.0-16) lucid; urgency=low
 
   * several improvements
   * launcher fixed
   * fixed showIcon with uid 0
   * new translations
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 13 Sep 2010 22:44:19 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 13 Sep 2010 22:44:19 -0300
 
-tuquito-update (1.0-14) lucid; urgency=low
+emmi-update (1.0-14) lucid; urgency=low
 
   * several improvements
   * control exception in log.writelines
 
- -- Mario Colque <mario@tuquito.org.ar>  Thu, 02 Sep 2010 18:20:05 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Thu, 02 Sep 2010 18:20:05 -0300
 
-tuquito-update (1.0-13) lucid; urgency=low
+emmi-update (1.0-13) lucid; urgency=low
 
   * init function optimized
   * png icons optimized
 
- -- Mario Colque <mario@tuquito.org.ar>  Thu, 02 Sep 2010 17:23:43 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Thu, 02 Sep 2010 17:23:43 -0300
 
-tuquito-update (1.0-12) lucid; urgency=low
+emmi-update (1.0-12) lucid; urgency=low
 
   * livecd detection
   * while bulce optimized
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 31 Aug 2010 21:52:56 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 31 Aug 2010 21:52:56 -0300
 
-tuquito-update (1.0-11) lucid; urgency=low
+emmi-update (1.0-11) lucid; urgency=low
 
   * Método de inicio actualizado, mejorado :D
   * Corrección en creación de directorios en /home
   * Optimización en rendimiento
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 31 Aug 2010 00:40:33 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 31 Aug 2010 00:40:33 -0300
 
-tuquito-update (1.0-10) lucid; urgency=low
+emmi-update (1.0-10) lucid; urgency=low
 
   * new time for auto-refresh when no connect
 
- -- Mario Colque <mario@tuquito.org.ar>  Sun, 29 Aug 2010 21:44:51 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sun, 29 Aug 2010 21:44:51 -0300
 
-tuquito-update (1.0-9) lucid; urgency=low
+emmi-update (1.0-9) lucid; urgency=low
 
   * traducciones en launcher
   * about integrado al programa principal
@@ -206,59 +206,59 @@ tuquito-update (1.0-9) lucid; urgency=low
   * apertura de ventana principal aún sin actualizaciones
   * limpieza
 
- -- Mario Colque <mario@tuquito.org.ar>  Sat, 28 Aug 2010 21:32:50 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Sat, 28 Aug 2010 21:32:50 -0300
 
-tuquito-update (1.0-7) lucid; urgency=low
+emmi-update (1.0-7) lucid; urgency=low
 
   * new version
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 25 Aug 2010 21:47:37 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 25 Aug 2010 21:47:37 -0300
 
-tuquito-update (1.0-6) lucid; urgency=low
+emmi-update (1.0-6) lucid; urgency=low
 
   * altura de glade arreglada para netbooks
   * nuevo inicio automático desde /etc/init.d
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 25 Aug 2010 21:12:37 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 25 Aug 2010 21:12:37 -0300
 
-tuquito-update (1.0-5) lucid; urgency=low
+emmi-update (1.0-5) lucid; urgency=low
 
   * Nueva función habilitar/deshabilitar inicio automático
   * Bucle de detección de conexión
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 23 Aug 2010 22:35:42 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 23 Aug 2010 22:35:42 -0300
 
-tuquito-update (1.0-4) lucid; urgency=low
+emmi-update (1.0-4) lucid; urgency=low
 
   * mejoras en glade
   * variables globlales eliminadas
   * conflicto con update-manager eliminado
   * bucle infinito eliminado
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 23 Aug 2010 21:24:50 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 23 Aug 2010 21:24:50 -0300
 
-tuquito-update (1.0-3) lucid; urgency=low
+emmi-update (1.0-3) lucid; urgency=low
 
   * estado ready solucionado
   * descripcion por defecto
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 23 Aug 2010 18:02:15 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 23 Aug 2010 18:02:15 -0300
 
-tuquito-update (1.0-2) lucid; urgency=low
+emmi-update (1.0-2) lucid; urgency=low
 
   * Función de auto-refresh mejorada
   * Glade corregido en auto-wrap
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 23 Aug 2010 01:42:31 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 23 Aug 2010 01:42:31 -0300
 
-tuquito-update (1.0-1) lucid; urgency=low
+emmi-update (1.0-1) lucid; urgency=low
 
   * Agregada nueva función de auto-refresh
   * modificación en glade
 
- -- Mario Colque <mario@tuquito.org.ar>  Mon, 23 Aug 2010 01:17:17 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Mon, 23 Aug 2010 01:17:17 -0300
 
-tuquito-update (0.9) lucid; urgency=low
+emmi-update (0.9) lucid; urgency=low
 
   * nuevas traducciones
   * nuevas funciones de preferencias
@@ -266,26 +266,26 @@ tuquito-update (0.9) lucid; urgency=low
   * Agregado Orígenes del software como opción en menu y en preferencias
   * mejoras en el ordenamiento de los paquetes
 
- -- Mario Colque <mario@tuquito.org.ar>  Fri, 20 Aug 2010 18:21:38 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Fri, 20 Aug 2010 18:21:38 -0300
 
-tuquito-update (0.8) lucid; urgency=low
+emmi-update (0.8) lucid; urgency=low
 
   * Mejora en la lectura de descripcion del paquete
   * arreglos mínimos en la interfaz
 
- -- Mario Colque <mario@tuquito.org.ar>  Fri, 20 Aug 2010 18:17:31 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Fri, 20 Aug 2010 18:17:31 -0300
 
-tuquito-update (0.7) lucid; urgency=low
+emmi-update (0.7) lucid; urgency=low
 
   * traducciones agregadas
   * corrección en tiempo de arranque
   * nueva interfaz en glade
 
- -- Mario Colque <mario@tuquito.org.ar>  Wed, 18 Aug 2010 23:21:15 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Wed, 18 Aug 2010 23:21:15 -0300
 
-tuquito-update (0.1.0) lucid; urgency=low
+emmi-update (0.1.0) lucid; urgency=low
 
   * Versión inicial
 
- -- Mario Colque <mario@tuquito.org.ar>  Tue, 03 Aug 2010 12:48:45 -0300
+ -- Mario Colque <mario@emmi.org.ar>  Tue, 03 Aug 2010 12:48:45 -0300
 
